@@ -1,0 +1,19 @@
+.task {
+  background-color: #c8d6e5;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.task > p {
+  margin-left: 10px;
+  font-size: 12px;
+}
+.task > button {
+  margin-left: 50px;
+  background-color: #54a0ff;
+  border: none;
+  font-size: 12px;
+}
