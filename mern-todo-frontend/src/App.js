@@ -5,7 +5,7 @@ import Task from "./components/Task";
 import axios from "./axios";
 import Title from "./components/Title";
 
-////https://mern-project-backend.herokuapp.com/  ------ go to this address
+
 
 function App() {
   //the idea with hooks is that we are able to keep our code more functional and avoid class based components if not desired/needed.
