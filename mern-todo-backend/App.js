@@ -8,7 +8,6 @@ const port = process.env.PORT || 9000;
 
 //couple of middleware --- setup your security, and also be able to read JSON file
 //heroku.com ---- Heroku is a online server somewhere... in Canada or Europe...
-//https://mern-project-backend.herokuapp.com/  ------ go to this address
 app.use(express.json());
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*"); // we will define from where the request will come from
